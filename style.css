@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+canvas {
+    display: block;
+    background-color: lightgray;
+    border-bottom: 1px solid black;
+}
+
+#resetButton {
+    margin-top: 20px;
+}
+
+#gameOverMessage {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+#board {
+    background-color: lightgray;
+    border-bottom: 1px solid black;
+}
+
